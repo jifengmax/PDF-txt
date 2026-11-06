@@ -1,0 +1,32 @@
+{
+  "name": "pdf-txt",
+  "version": "1.0.0",
+  "description": "PDF to plain text CLI. Runs fully locally, no LLM, no external services.",
+  "type": "module",
+  "bin": {
+    "pdf2txt": "bin/pdf2txt.mjs"
+  },
+  "files": [
+    "bin",
+    "pdf2txt.cmd",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node bin/pdf2txt.mjs"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "unpdf": "^2.1.0"
+  },
+  "keywords": [
+    "pdf",
+    "pdf-to-text",
+    "cli",
+    "text-extraction",
+    "pdfjs"
+  ],
+  "license": "MIT"
+}
